@@ -1,0 +1,52 @@
+.titulo-formacion,.formacion h1{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+.suptitulo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:763px){
+.titulo-formacion-2,.titulo-formacion{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;;
+    color: #464646;
+    font-size: 14px;
+    margin:  0rem 1rem;
+  
+}
+
+    .suptitulo{
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #464646;
+        margin-bottom: 1rem;
+        margin:  0rem 1rem;
+    }
+ }
+ @media screen and (min-width:1200px){
+    .suptitulo{
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #464646;
+        margin-bottom: 1rem;
+        margin:  1rem 1rem;
+
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+ }

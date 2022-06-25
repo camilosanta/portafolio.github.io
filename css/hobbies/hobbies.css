@@ -1,0 +1,88 @@
+
+@media screen and (min-width:300px){
+
+    .hobbies__items-1,.hobbies__items-2,.hobbies__items-3,.hobbies__items-4,.hobbies__items-5,.hobbies__items-6{
+        background-color: #fdfdfd;
+        padding: 16px;
+        width: 156px;
+        height: 118px;
+        padding: 16px;
+        grid-row-gap: 8px;
+        margin: 3vw 3px;
+        
+    }
+    .hobbies__items-1{
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+    .hobbies__items-2{
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+    .hobbies__items-3{
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+    .hobbies__items-4{
+        grid-column: 2/2;
+        grid-row: 2/2;
+    }
+    .hobbies__items-5{
+        grid-column: 1/1;
+        grid-row: 3/3;
+    }
+    .hobbies__items-6{
+        grid-column: 2/2;
+        grid-row: 3/3;
+    }
+}
+@media screen and (min-width:763px) {
+
+    .hobbies__items-1,.hobbies__items-2,.hobbies__items-3,.hobbies__items-4,.hobbies__items-5,.hobbies__items-6{
+        background-color: #fdfdfd;
+        padding: 16px;
+        width: 224px;
+        height: 108px;
+        padding: 16px;
+        grid-row-gap: 8px;
+        margin: 3vw 3px;
+        
+    }
+    .hobbies__items-1{
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+    .hobbies__items-2{
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+    .hobbies__items-3{
+        grid-column: 3/3;
+        grid-row: 1/1;
+    }
+    .hobbies__items-4{
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+    .hobbies__items-5{
+        grid-column: 2/2;
+        grid-row: 2/2;
+    }
+    .hobbies__items-6{
+        grid-column: 3/3;
+        grid-row: 2/2;
+    }
+}
+@media screen and (min-width:1200px) {
+    .hobbies__items-1,.hobbies__items-2,.hobbies__items-3,.hobbies__items-4,.hobbies__items-5,.hobbies__items-6{
+        background-color: #fdfdfd;
+        padding: 16px;
+        width: 176px;
+        height: 174px;
+        padding: 16px;
+        grid-row-gap: 8px;
+        margin: 3vw 3px;
+        
+    }
+    
+    }

@@ -1,0 +1,76 @@
+.main{
+    grid-template-areas: "Sobre-mi" ,"skills"; /*se coloca el nombre de los items que van a tener un area gird*/
+    grid-template-columns:auto,auto;/*Tamaño columnas de cada item o gir-area*/
+    grid-template-rows: auto, auto; /*tamaño de filas de cada item o gird-area*/
+
+}
+.Sobre-mi{
+    background: #EAF2FD;
+    grid-area: Principal;/*nombre de area al que pertenece (este solo se le coloca al item pricinpal)*/
+    display: grid; /*pone el contenedor en  modo gird*/
+    flex-wrap: wrap;/*hace que los elementos hijos permanescan en un misma linea*/
+    width: 100%;
+    align-items: center;
+}
+.Sobre-mi__titulo{
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:5px;
+   grid-column: 1/4; /*el numero de columnas que quiere que ocupe el hijo (del item)*/
+/*estilo de contenedor*/
+   font-size: 25px;
+   font-family: 'Raleway', sans-serif;
+   color: #464646;
+}
+
+.Sobre-mi__parrafo{
+    grid-column: 1/4;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-bottom:50px;
+
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    line-height: 16px; /*altura linea*/
+}
+.Sobre__imagen--firma{
+    grid-column: 1/4;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-bottom:50px;
+}
+
+@media screen and (min-width:1200px) {
+    .Sobre-mi__titulo{
+        margin-top:15px;
+        margin-bottom:15px;
+        margin-left:152px;
+       grid-column: 1/4; /*el numero de columnas que quiere que ocupe el hijo (del item)*/
+    /*estilo de contenedor*/
+       font-size: 25px;
+       font-family: 'Raleway', sans-serif;
+       color: #464646;
+    }
+ 
+    .Sobre-mi__parrafo{
+        grid-column: 1/4;
+        width:60vw;
+        margin-bottom:5px;
+        margin: 5px 0px;
+        margin-left: 152px;
+        margin-top: 15px;
+    
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #464646;
+        line-height: 16px; /*altura linea*/
+    }
+
+    .Sobre__imagen--firma{
+        grid-column: 1/4;
+        margin-left:152px;
+        margin-right: 5px;
+        margin-bottom:50px;
+    }
+}

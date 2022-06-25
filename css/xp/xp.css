@@ -1,0 +1,107 @@
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    width: 100%;
+}
+.experiencia__items-2,.experiencia__items-3{
+    width:296px ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 32px;
+}
+.experiencia__items-1{
+    width:296px ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.experiencia__items-4{
+    width:296px ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (min-width:763px){
+    .experiencia{
+        display: flex;
+        flex-direction: column;
+        align-items: left;   
+        width: 100%;
+    }
+
+    .experiencia__items-2,.experiencia__items-3{
+        width: 704px;
+   
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        margin-top: 32px;
+    }
+    .experiencia__items-1{
+        width: 704px;
+
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        margin-top: 10px;
+    }
+    
+    .experiencia__items-4{
+        width: 704px;
+    
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .experiencia{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: left;   
+        width: 100%;
+    
+      
+    }
+
+   .experiencia__items-1,.experiencia__items-3{
+
+    width: 752px;
+    height: 406px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+
+    align-self: stretch;
+   }
+   .experiencia__items-2,.experiencia__items-4{
+    width: 752px;
+    height: 406px;
+    
+    display: flex;
+    
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: left;
+   }
+
+   .titulos2{
+    margin: 0px 50px;
+   }
+}

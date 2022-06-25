@@ -1,0 +1,29 @@
+
+@media screen and (min-width:1000px){
+    .footer{
+
+          width: 100%;
+          height:50px;
+         text-align: center;
+         font-family: 'Raleway', sans-serif;
+         font-weight: bolder;
+    
+         font-family: 24px;
+    }
+    .foorter__tex{
+        padding: 16px;
+    }
+}
+
+@media screen and (min-width:300px){
+    .footer{
+
+        width: 100%;
+         padding: 5px;
+         text-align: center;
+         font-family: 'Raleway', sans-serif;
+         font-weight: bolder;
+        font-family: 16px;
+    }
+    
+}

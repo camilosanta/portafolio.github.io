@@ -1,0 +1,88 @@
+.formacion__img{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #FFFFFF;
+    width: 296px;
+    height: 118px;
+}
+.formacion__img-1{
+    background: url(../../img/colegio1.png) no-repeat center ;
+    width: 84px;
+    height: 58px;
+}
+
+.formacion__img-2{
+    background: url(../../img/alura.png) no-repeat center;
+    width: 84px;
+    height: 58px;
+}
+
+.formacion__img-3{
+    background: url(../../img/casd.png) no-repeat center;
+    width: 84px;
+    height: 58px;
+}
+
+@media screen and (min-width:763px){
+  
+    .formacion__img{
+        margin: 0 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        background: #FFFFFF;
+        width: 210px;
+        height: 118px;
+    }
+
+}
+@media screen and (min-width:1200px){
+    .formacion__img{
+        margin: 0 10px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        background: #FFFFFF;
+        width: 368px;
+        height: 286px;
+    }
+    .formacion__img:hover{
+        transition: 0.5s;
+        border: 1px solid red;
+    }
+
+    .formacion__img-1{
+        background: url(../../img/colegio1.png) no-repeat center ;
+        width: 192px;
+        height: 130px;
+    }
+    
+    .formacion__img-2{
+        background: url(../../img/alura.png) no-repeat center;
+        width: 192px;
+        height: 130px;
+    }
+    
+    .formacion__img-3{
+        background: url(../../img/casd.png) no-repeat center;
+        width: 192px;
+        height: 130px;
+    }
+}
+
+/* 
+    ---notas--
+align-content: space-between; crea un espacio entre contenedores
+flex-direction: row-reverse;  direccion al reves
+
+
+*/

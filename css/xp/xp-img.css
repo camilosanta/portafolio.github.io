@@ -1,0 +1,25 @@
+.experiencia__img-1 ,.experiencia__img-3{
+    background: url(../../img/encriptador.png) no-repeat center /cover;
+    width: 296px;
+    height: 144px;
+}
+.experiencia__img-2 ,.experiencia__img-4{
+    background: url(../../img/ahorcado.png) no-repeat center /cover;
+    width: 296px;
+    height: 144px;
+}
+
+@media screen and (min-width:763px){
+
+    .experiencia__img-1 ,.experiencia__img-3{
+        background: url(../../img/encriptador.png) no-repeat center /cover;;
+        width: 704px;
+        height: 320px;
+    
+    }
+    .experiencia__img-2 ,.experiencia__img-4{
+        background: url(../../img/ahorcado.png) no-repeat center /cover;;
+        width: 704px;
+        height: 320px;
+    }
+}

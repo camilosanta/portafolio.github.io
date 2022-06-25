@@ -1,0 +1,10 @@
+
+.titulo__hobbies{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    text-align: left;
+    text-transform: capitalize;
+}

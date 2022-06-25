@@ -1,0 +1,51 @@
+.botones__exp-1,.botones__exp-2{
+    width: 108px;
+    height: 40px;
+    padding: 12px 16px;
+    border: 1px solid #2A7AE4;
+    margin: 0.9rem 0rem;
+    font-family: 'Raleway', sans-serif;
+}
+.botones__exp-2{
+    background: #2A7AE4;
+    color: #FFFFFF;
+    margin-left: 16px;   
+}
+
+.suptitulo-formulario{
+
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+}
+@media screen and (min-width:1200px){
+    .suptitulo-formulario{
+
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+    }
+
+    .botone__exp{
+        display: flex;
+        padding: 0px;
+        flex-direction: row;
+       
+        
+    }
+
+    .botones__exp-1,.botones__exp-2{
+        width: 105px;
+        height: 51px;
+        
+        padding: 16px;
+        gap: 10px;
+         
+        border: 1px solid #2A7AE4;
+        margin: 0.9rem 1rem;
+        font-family: 'Raleway', sans-serif;
+       
+        display: flex;
+        flex-direction:row;
+    }
+}

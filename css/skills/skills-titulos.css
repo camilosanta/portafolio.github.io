@@ -1,0 +1,36 @@
+.skills__titulo{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 16px 0px;
+    width: calc(100% - 5px);
+}
+.titulos__skills-img{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width:1200px) {
+    .skills__titulo{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        margin: 16px 0px;
+        width: calc(100% - 5px);
+    }
+    .titulos__skills-img{
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-family: 'Raleway', sans-serif;
+        color: #464646;
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+}
